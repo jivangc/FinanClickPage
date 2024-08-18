@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>FinanClick | Inicio</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&amp;display=swap" rel="stylesheet">
+  </head>
+
+
+  <body>
+    <main class="main" id="top">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark" data-navbar-on-scroll="data-navbar-on-scroll">
+        <div class="container"><a class="navbar-brand" href="/"><img src="assets/img/financlick_logo.png" alt="" style="width: 200px; border-radius: 35px;"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-bars text-white fs-3"></i></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="/nosotros">Nosotros</a></li>
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="/servicios">Servicios</a></li>
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="/contacto">Contacto</a></li>
+              <li class="nav-item mt-2 mt-lg-0"><a class="nav-link btn btn-light text-black w-md-25 w-50 w-lg-100" aria-current="page" href="http://localhost:4200/login">Acceder</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <router-outlet></router-outlet>
+      
+    </main>
+
+    <section>
+
+      <div class="container bg-dark overflow-hidden rounded-1">
+        <div class="bg-holder" style="background-image:url(assets/img/promo/promo-bg.png);">
+        </div>
+        <div class="px-5 py-7 position-relative">
+          <h1 class="text-center w-lg-75 mx-auto fs-lg-6 fs-md-4 fs-3 text-white">Descubre cómo nuestra herramienta puede revolucionar la forma en que gestionas los créditos.</h1>
+          <div class="row justify-content-center mt-5">
+            <div class="col-auto w-100 w-lg-50">
+              <input class="form-control mb-2 border-light fs-1" type="email" placeholder="Ingresa tu correo" />
+            </div>
+            <div class="col-auto mt-2 mt-lg-0">
+              <button class="btn fs-1" style="background-color: #63ad18; color: #fff;">Contactanos</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="pt-0">
+
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-6 col-sm-12"><a href="/"><img class="img-fluid mt-5 mb-4" src="assets/img/financlick_bw1.png" alt="" style="width: 250px;"/></a>
+            <p class="w-lg-75 text-gray">Software de gestión empresarial y financiera de creditos y prestamos.</p>
+          </div>
+          <div class="col-lg-2 col-sm-4">
+            <h3 class="fw-bold fs-1 mt-5 mb-4">Paginas</h3>
+            <ul class="list-unstyled">
+              <li class="my-3 col-md-4"><a href="/">Inicio</a></li>
+              <li class="my-3"><a href="/nosotros">Nosotros</a></li>
+              <li class="my-3"><a href="/servicios">Servicios</a></li>
+              <li class="my-3"><a href="/contacto">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4">
+            <h3 class="fw-bold fs-1 mt-5 mb-4">Plataforma</h3>
+            <ul class="list-unstyled">
+              <li class="my-3"><a href="http://localhost:4200/login">Iniciar Sesion</a></li>
+              <li class="my-3"><a href="/contacto">Contratar</a><span class="py-1 px-2 rounded-2 fw-bold text-white ms-2" style="background-color: #63ad18;">Demo!</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4">
+            <h3 class="fw-bold fs-1 mt-5 mb-4">Recursos</h3>
+            <ul class="list-unstyled">
+              <li class="mb-3"><a href="#">Documentacion</a></li>
+              <li class="mb-3"><a href="#">API</a></li>
+              <li class="mb-3"><a href="/contacto">Consultorias</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-gray">Softberry 2024© All rights reserved.</p>
+      </div>
+      <!-- end of .container-->
+
+    </section>
+  </body>
+</html> 
