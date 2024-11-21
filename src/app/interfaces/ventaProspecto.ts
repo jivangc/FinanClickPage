@@ -13,5 +13,5 @@ export interface IVentaProspecto {
     estado: string;
     rfc: string;
     numeroContacto: string;
-    idPlanNavigation?: IPlanEmpresa | null;
+    //idPlanNavigation?: IPlanEmpresa | null;
 }

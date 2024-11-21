@@ -63,7 +63,7 @@ export class ContactoComponent implements OnInit {
                 estado: this.contactoForm.get('estado')?.value,
                 rfc: this.contactoForm.get('rfc')?.value,
                 numeroContacto: this.contactoForm.get('telefono')?.value,
-                idPlanNavigation: null
+                //idPlanNavigation: null
             };
     
             console.log('venta', venta);
