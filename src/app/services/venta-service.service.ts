@@ -8,8 +8,10 @@ import { IPlanEmpresa } from '../interfaces/plan';
     providedIn: 'root'
 })
 export class VentasProspectoService {
-    private apiUrl = 'https://localhost:5000/api/PlanEmpresa';
-    private apiUrlV = 'https://localhost:5000/api/VentasProspecto';
+    // private apiUrl = 'https://localhost:5000/api/PlanEmpresa';
+    // private apiUrlV = 'https://localhost:5000/api/VentasProspecto';
+    private apiUrl = 'https://financlick.somee.com/api/PlanEmpresa';
+    private apiUrlV = 'https://financlick.somee.com/api/VentasProspecto';
 
     constructor(private http: HttpClient) { }
 
